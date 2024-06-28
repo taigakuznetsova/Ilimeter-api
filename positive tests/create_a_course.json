@@ -1,0 +1,65 @@
+{
+	"id": "ce76002c-1f7f-4aeb-a6a0-96cfe7cd8bb7",
+	"name": "REST API basics: CRUD, test & variable",
+	"timestamp": "2024-06-28T09:06:39.043Z",
+	"collection_id": "27096116-c8d1536e-5737-4f05-b5d3-aed833ecb745",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 4,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2024-06-28T09:06:37.645Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "bfdbf359-736f-4194-b460-c199ef999dc3",
+			"name": "Post data",
+			"url": "http://localhost:8000//api-courses/courses/",
+			"time": 81,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Successful POST request": true
+			},
+			"testPassFailCounts": {
+				"Successful POST request": {
+					"pass": 4,
+					"fail": 0
+				}
+			},
+			"times": [
+				108,
+				92,
+				83,
+				81
+			],
+			"allTests": [
+				{
+					"Successful POST request": true
+				},
+				{
+					"Successful POST request": true
+				},
+				{
+					"Successful POST request": true
+				},
+				{
+					"Successful POST request": true
+				}
+			]
+		}
+	],
+	"count": 4,
+	"totalTime": 364,
+	"collection": {
+		"requests": [
+			{
+				"id": "bfdbf359-736f-4194-b460-c199ef999dc3",
+				"method": "POST"
+			}
+		]
+	}
+}

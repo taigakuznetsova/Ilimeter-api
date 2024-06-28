@@ -1,0 +1,61 @@
+{
+	"id": "67d08f2d-6170-464c-b043-76670d8caa27",
+	"name": "REST API basics: CRUD, test & variable",
+	"timestamp": "2024-06-28T10:40:43.344Z",
+	"collection_id": "27096116-c8d1536e-5737-4f05-b5d3-aed833ecb745",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 3,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2024-06-28T10:40:42.099Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "8f6a1923-1d5d-4c79-9494-a6910d164a41",
+			"name": "update a course",
+			"url": "http://localhost:8000//api-courses/courses/3/",
+			"time": 82,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Successful PUT request": true
+			},
+			"testPassFailCounts": {
+				"Successful PUT request": {
+					"pass": 3,
+					"fail": 0
+				}
+			},
+			"times": [
+				93,
+				80,
+				82
+			],
+			"allTests": [
+				{
+					"Successful PUT request": true
+				},
+				{
+					"Successful PUT request": true
+				},
+				{
+					"Successful PUT request": true
+				}
+			]
+		}
+	],
+	"count": 3,
+	"totalTime": 255,
+	"collection": {
+		"requests": [
+			{
+				"id": "8f6a1923-1d5d-4c79-9494-a6910d164a41",
+				"method": "PUT"
+			}
+		]
+	}
+}

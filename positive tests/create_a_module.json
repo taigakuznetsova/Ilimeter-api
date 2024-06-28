@@ -1,0 +1,52 @@
+{
+	"id": "d764e476-18db-4fe0-ae41-11920e200ce4",
+	"name": "REST API basics: CRUD, test & variable",
+	"timestamp": "2024-06-28T13:38:11.758Z",
+	"collection_id": "27096116-c8d1536e-5737-4f05-b5d3-aed833ecb745",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 0,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2024-06-28T13:38:10.454Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "a1c9a2d3-ac2e-4e02-9206-490056f46b4a",
+			"name": "create a new module",
+			"url": "http://localhost:8000//api-courses/modules/",
+			"time": 76,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				62,
+				54,
+				48,
+				64,
+				76
+			],
+			"allTests": [
+				{},
+				{},
+				{},
+				{},
+				{}
+			]
+		}
+	],
+	"count": 5,
+	"totalTime": 304,
+	"collection": {
+		"requests": [
+			{
+				"id": "a1c9a2d3-ac2e-4e02-9206-490056f46b4a",
+				"method": "POST"
+			}
+		]
+	}
+}

@@ -1,0 +1,52 @@
+{
+	"id": "f9c16df5-5889-4bf4-958d-8f57346f1216",
+	"name": "Ilimeter",
+	"timestamp": "2024-06-28T14:17:20.052Z",
+	"collection_id": "27096116-c8d1536e-5737-4f05-b5d3-aed833ecb745",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 0,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2024-06-28T14:17:18.533Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "92cb90d5-6efb-41c0-865c-b39493821930",
+			"name": "update a module",
+			"url": "http://localhost:8000//api-courses/modules/5/",
+			"time": 164,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				178,
+				57,
+				55,
+				53,
+				164
+			],
+			"allTests": [
+				{},
+				{},
+				{},
+				{},
+				{}
+			]
+		}
+	],
+	"count": 5,
+	"totalTime": 507,
+	"collection": {
+		"requests": [
+			{
+				"id": "92cb90d5-6efb-41c0-865c-b39493821930",
+				"method": "PUT"
+			}
+		]
+	}
+}
